@@ -30,7 +30,7 @@ import cv2
 import numpy as np
 
 # ---------- Bot connection ----------
-ESP_IP = "192.168.50.174"   # <-- set to your board's IP address
+ESP_IP = "192.168.50.175"   # <-- set to your board's IP address
 ESP_PORT = 4210
 SEND_INTERVAL_S = 0.05      # matches the board's 300ms watchdog
 
@@ -47,7 +47,7 @@ parameters = cv2.aruco.DetectorParameters()
 detector = cv2.aruco.ArucoDetector(aruco_dict, parameters)
 
 cam = cv2.VideoCapture(0)  # change index if the wrong camera opens
-cam.set(3, 700)
+cam.set(3, 500)
 cam.set(4, 505)
 
 if not cam.isOpened():

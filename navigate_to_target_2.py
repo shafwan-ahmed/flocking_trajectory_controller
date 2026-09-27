@@ -32,7 +32,7 @@ import cv2
 import numpy as np
 
 # ---------- Bot connection ----------
-ESP_IP = "192.168.50.174"   # <-- set to your board's IP address
+ESP_IP = "192.168.50.175"   # <-- set to your board's IP address
 ESP_PORT = 4210
 SEND_INTERVAL_S = 0.05      # matches the board's 300ms watchdog
 
