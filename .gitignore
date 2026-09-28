@@ -195,3 +195,7 @@ kinematic_controller/unicycle_model_turn_fixed.py
 project_architecture.docx
 
 /test/config.py
+
+/esp8266/n20_config.py
+
+/esp8266/stepper_config.py
