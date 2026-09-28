@@ -193,3 +193,5 @@ swarm_controller_test.py
 kinematic_controller/unicycle_model_turn_fixed.py
 
 project_architecture.docx
+
+/test/config.py
