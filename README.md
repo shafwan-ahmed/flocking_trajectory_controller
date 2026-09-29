@@ -19,4 +19,3 @@ This hardware-in-the-loop (HIL) tracking architecture is designed for differenti
 *   Flash the ESP32 firmware sketch to the microcontroller using the Arduino IDE.
 *   Run `swarm_controller.py` on the central PC.
 *   Wait for the camera feed to stabilize, then press `c` to lock the arena calibration and initiate tracking.
-
